@@ -1,0 +1,51 @@
+.options-container{
+margin: 10px;
+}
+
+.quiz-container{
+    padding: 20px;
+}
+.options-container .option{
+    border: 2px solid gray;
+    padding: 10px;
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.selected{
+    background-color: green;
+    color:#fff;
+}
+
+.question-text{
+    font-size: 34px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000, #7d7deb 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.next-button{
+    margin-left: 20px;
+}
+
+.quiz-complete{
+    text-align: center;
+    font-weight: bold;
+    color: #575a7b;
+    font-size: 34px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    /* margin: auto; */
+    background: linear-gradient(to right, #ff0000 40%, #7d7deb 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/* CSS quiZ TEST CSS -===================================== */

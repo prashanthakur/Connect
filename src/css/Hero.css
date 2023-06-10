@@ -1,11 +1,60 @@
+:root {
+    --blue: #1e90ff;
+    /* --blue:#C4B9FE; */
+    --white: #ffffff;
+  }
 .css-16rzrzw-MuiPaper-root{
     box-shadow: none !important;
 }
 .main{
-font-size: 60px;
+font-size: 50px;
 font-weight: bold;
+color: var(--white);
+opacity: 0.7;
 }
 .main-sec{
     font-size: 30px;
     font-weight: bold;
+    color: var(--white);
+    opacity: 0.7;
+}
+.grid-item-box{
+    /* margin-top: 70px;
+    padding: 40px; */
+    /* border: 1px solid red; */
+}
+.grid-items{
+    margin: 50px;
+}
+.grid-items .main{
+    margin: 12px;
+    padding: 10px;
+    font-size: 40px;
+}
+.grid-items .main-sec{
+    /* text-align: left; */
+}
+
+.hero-image{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-tagline{
+    margin-top: 100px;
+}
+.hero-tagline p{
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+    color: green;
+}
+.hero-tagline h1{
+    color: rgb(13, 13, 13);
+    /* font-weight: bold; */
+    margin: 30px;
+    text-align: left;
+}
+.check-icons{
+    color: green;
 }
